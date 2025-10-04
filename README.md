@@ -19,11 +19,11 @@ Instructions on how to disable paid repositories and notifications about not sub
 - `Next, go to the Updates section and click the Refresh button. Wait for all the repositories to be found and the message TASK: OK to appear.`
 - `the last step is to click on the upgrade button to update the system and wait for the end. Congratulations, you have successfully updated Proxmox!`
 - disabling the unsubscribe sign:
-- `When you select a node, you will see a shell button. Click on it and proceed to the next steps.
-  write a command to navigate to the directory: cd /usr/share/javascript/proxmox-widget-toolkit
-  write a command to edit the file: nano proxmoxlib.js
-  press the ctrl + w keyboard shortcuts and paste: No valid
-  change Ext.Msg.show({ to void({
-  save the file: ctrl + x, next Y, next Enter
-  Restart the service with the command: systemctl restart pveproxy
-  Done! Log out of your account in the proxmox panel and reload the page with ctrl + f5, then log in again and you won't see this message anymore!`
+- `When you select a node, you will see a shell button. Click on it and proceed to the next steps.`
+- `write a command to navigate to the directory: cd /usr/share/javascript/proxmox-widget-toolkit`
+- `write a command to edit the file: nano proxmoxlib.js`
+- `press the ctrl + w keyboard shortcuts and paste: No valid`
+- `change Ext.Msg.show({ to void({`
+- `save the file: ctrl + x, next Y, next Enter`
+- `Restart the service with the command: systemctl restart pveproxy`
+- `Done! Log out of your account in the proxmox panel and reload the page with ctrl + f5, then log in again and you won't see this message anymore!`
