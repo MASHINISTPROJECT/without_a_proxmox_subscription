@@ -14,10 +14,10 @@ Instructions on how to disable paid repositories and notifications about not sub
 
 ## Steps:
 - disabling paid repositories:
-- `go to the proxmox control panel, select your node, and go to the updates section. Below that, you will find the Repositories section.
-  disable all paid repositories and add a non-subscription repository
-  Next, go to the Updates section and click the Refresh button. Wait for all the repositories to be found and the message TASK: OK to appear.
-  the last step is to click on the upgrade button to update the system and wait for the end. Congratulations, you have successfully updated Proxmox!`
+- `go to the proxmox control panel, select your node, and go to the updates section. Below that, you will find the Repositories section.`
+- `disable all paid repositories and add a non-subscription repository`
+- `Next, go to the Updates section and click the Refresh button. Wait for all the repositories to be found and the message TASK: OK to appear.`
+- `the last step is to click on the upgrade button to update the system and wait for the end. Congratulations, you have successfully updated Proxmox!`
 - disabling the unsubscribe sign:
 - `When you select a node, you will see a shell button. Click on it and proceed to the next steps.
   write a command to navigate to the directory: cd /usr/share/javascript/proxmox-widget-toolkit
