@@ -6,12 +6,6 @@
 
 Instructions on how to disable paid repositories and notifications about not subscriptions
 
-## My Links
-
-- [DS: RedstoneLink](https://discord.gg/BE8fEbJ9HJ)
-- [Site: RedstoneLink](https://RedstoneLink.ru)
-- [TG: RedstoneLink](https://t.me/redstonelink)
-
 ## Steps:
 - disabling paid repositories:
 - `go to the proxmox control panel, select your node, and go to the updates section. Below that, you will find the Repositories section.`
